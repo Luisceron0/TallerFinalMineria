@@ -11,7 +11,7 @@ import joblib
 
 # Cargar el dataset de Iris
 print("Cargando el dataset de Iris...")
-url = "https://raw.githubusercontent.com/uciml/iris/master/iris.data"
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
 iris_df = pd.read_csv(url, header=None, names=column_names)
 
